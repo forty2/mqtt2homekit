@@ -59,9 +59,10 @@
   },
   "homepage": "https://github.com/forty2/mqtt2homekit#readme",
   "dependencies": {
-    "glob": "^7.1.1",
-    "lodash.merge": "^4.6.0",
     "debug": "^2.6.4",
+    "glob": "^7.1.1",
+    "hap-client": "^1.0.0",
+    "lodash.merge": "^4.6.0",
     "mqtt": "^2.7.1",
     "mqtt-topics": "^1.0.2",
     "rxjs": "^5.3.0",
