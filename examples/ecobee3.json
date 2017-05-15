@@ -1,0 +1,90 @@
+{
+    "host": "aaa.bbb.ccc.ddd",
+    "port": 12345,
+    "topics": [
+        {
+            "prefix": "ecobee:home",
+            "aid": 1,
+            "values": [
+                {
+                    "iid": 17,
+                    "topicName": "currentState"
+                },
+                {
+                    "iid": 18,
+                    "topicName": "targetState"
+                },
+                {
+                    "iid": 19,
+                    "topicName": "currentTemp"
+                },
+                {
+                    "iid": 20,
+                    "topicName": "targetTemp"
+                }
+            ]
+        },
+        {
+            "prefix": "sensors:hallway",
+            "aid": 1,
+            "values": [
+                {
+                    "iid": 66,
+                    "topicName": "isMotionDetected"
+                },
+                {
+                    "iid": 65,
+                    "topicName": "isOccupied",
+                    "valueMap": {
+                        "0": "false",
+                        "1": "true"
+                    }
+                }
+            ]
+        },
+        {
+            "prefix": "sensors:livingroom",
+            "aid": 2,
+            "values": [
+                {
+                    "iid": 2064,
+                    "topicName": "currentTemp"
+                },
+                {
+                    "iid": 2065,
+                    "topicName": "isBatteryLow",
+                    "valueMap": {
+                        "0": "false",
+                        "1": "true"
+                    }
+                },
+                {
+                    "iid": 2060,
+                    "topicName": "isMotionDetected"
+                }
+            ]
+        },
+        {
+            "prefix": "sensors:bedroom",
+            "aid": 3,
+            "values": [
+                {
+                    "iid": 3088,
+                    "topicName": "currentTemp"
+                },
+                {
+                    "iid": 3089,
+                    "topicName": "isBatteryLow",
+                    "valueMap": {
+                        "0": "false",
+                        "1": "true"
+                    }
+                },
+                {
+                    "iid": 3084,
+                    "topicName": "isMotionDetected"
+                }
+            ]
+        }
+    ]
+}

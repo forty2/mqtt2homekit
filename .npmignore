@@ -1,0 +1,6 @@
+src/
+node_modules/
+accessories.json
+backup.js
+gen/
+

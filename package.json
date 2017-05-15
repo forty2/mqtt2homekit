@@ -1,0 +1,72 @@
+{
+  "name": "mqtt2homekit",
+  "version": "1.0.0",
+  "description": "Use MQTT to control HomeKit-enabled devices",
+  "bin": {
+    "mqtt2homekit": "dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forty2/mqtt2homekit.git"
+  },
+  "keywords": [
+    "homekit",
+    "hap",
+    "client",
+    "control",
+    "home",
+    "automation",
+    "smarthome",
+    "mqtt"
+  ],
+  "scripts": {
+    "build": "babel src -d dist -D",
+    "clean": "rm -rf dist/",
+    "prepublish": "npm run build"
+  },
+  "author": "Zach Bean <zb@forty2.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-plugin-syntax-function-bind": "^6.13.0",
+    "babel-plugin-transform-function-bind": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-env": "^1.4.0"
+  },
+  "babel": {
+    "sourceMaps": "inline",
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": 6
+          }
+        }
+      ]
+    ],
+    "plugins": [
+      "syntax-function-bind",
+      "transform-function-bind",
+      "transform-object-rest-spread"
+    ]
+  },
+  "engines": {
+    "node": ">=6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/forty2/mqtt2homekit/issues"
+  },
+  "homepage": "https://github.com/forty2/mqtt2homekit#readme",
+  "dependencies": {
+    "glob": "^7.1.1",
+    "lodash.merge": "^4.6.0",
+    "debug": "^2.6.4",
+    "mqtt": "^2.7.1",
+    "mqtt-topics": "^1.0.2",
+    "rxjs": "^5.3.0",
+    "source-map-support": "^0.4.15",
+    "to-case": "^2.0.0",
+    "yargs": "^8.0.1"
+  }
+}

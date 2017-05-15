@@ -1,0 +1,4 @@
+dist/
+node_modules/
+accessories.json
+backup.js

@@ -1,0 +1,124 @@
+{
+    "Characteristics": [
+        {
+            "Format": "float",
+            "UUID": "E4489BBC-5227-4569-93E5-B345E3E5508F",
+            "Properties": [
+                "read",
+                "write",
+                "cnotify"
+            ],
+            "Name": "Home Comfort Heat Level",
+            "Permissions": [
+                "securedRead",
+                "securedWrite"
+            ],
+            "Unit": "celsius",
+            "Constraints": {
+                "MinimumValue": 7.2,
+                "StepValue": 0.1,
+                "MaximumValue": 26.1
+            }
+        },
+        {
+            "Format": "float",
+            "UUID": "7D381BAA-20F9-40E5-9BE9-AEB92D4BECEF",
+            "Properties": [
+                "read",
+                "write",
+                "cnotify"
+            ],
+            "Name": "Home Comfort Cooling Level",
+            "Permissions": [
+                "securedRead",
+                "securedWrite"
+            ],
+            "Unit": "celsius",
+            "Constraints": {
+                "MinimumValue": 10,
+                "StepValue": 0.1,
+                "MaximumValue": 33.3
+            }
+        },
+        {
+            "Format": "float",
+            "UUID": "73AAB542-892A-4439-879A-D2A883724B69",
+            "Properties": [
+                "read",
+                "write",
+                "cnotify"
+            ],
+            "Name": "Away Comfort Heat Level",
+            "Permissions": [
+                "securedRead",
+                "securedWrite"
+            ],
+            "Unit": "celsius",
+            "Constraints": {
+                "MinimumValue": 7.2,
+                "StepValue": 0.1,
+                "MaximumValue": 26.1
+            }
+        },
+        {
+            "Format": "float",
+            "UUID": "5DA985F0-898A-4850-B987-B76C6C78D670",
+            "Properties": [
+                "read",
+                "write",
+                "cnotify"
+            ],
+            "Name": "Away Comfort Cooling Level",
+            "Permissions": [
+                "securedRead",
+                "securedWrite"
+            ],
+            "Unit": "celsius",
+            "Constraints": {
+                "MinimumValue": 10,
+                "StepValue": 0.1,
+                "MaximumValue": 33.3
+            }
+        },
+        {
+            "Format": "float",
+            "UUID": "05B97374-6DC0-439B-A0FA-CA33F612D425",
+            "Properties": [
+                "read",
+                "write",
+                "cnotify"
+            ],
+            "Name": "Sleep Comfort Heat Level",
+            "Permissions": [
+                "securedRead",
+                "securedWrite"
+            ],
+            "Unit": "celsius",
+            "Constraints": {
+                "MinimumValue": 7.2,
+                "StepValue": 0.1,
+                "MaximumValue": 26.1
+            }
+        },
+        {
+            "Format": "float",
+            "UUID": "A251F6E7-AC46-4190-9C5D-3D06277BDF9F",
+            "Properties": [
+                "read",
+                "write",
+                "cnotify"
+            ],
+            "Name": "Sleep Comfort Cooling Level",
+            "Permissions": [
+                "securedRead",
+                "securedWrite"
+            ],
+            "Unit": "celsius",
+            "Constraints": {
+                "MinimumValue": 10,
+                "StepValue": 0.1,
+                "MaximumValue": 33.3
+            }
+        }
+    ]
+}
